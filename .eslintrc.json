@@ -39,7 +39,7 @@
     }
   },
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", { "printWidth": 120 }],
     "no-implicit-coercion": "error",
     "no-undef": "off",
     "@typescript-eslint/indent": "off",
