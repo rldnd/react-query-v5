@@ -1,3 +1,4 @@
+import { IconClose } from "@/assets";
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -15,7 +16,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
+            By <IconClose />
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
