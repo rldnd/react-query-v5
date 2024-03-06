@@ -1,3 +1,8 @@
+import NextBundleAnalyzer from "@next/bundle-analyzer";
+import withPlugins from "next-compose-plugins";
+
+const withBundleAnalyzer = NextBundleAnalyzer({ enabled: false });
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   webpack: (config) => {
@@ -10,4 +15,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withPlugins([withBundleAnalyzer], nextConfig);

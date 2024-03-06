@@ -47,6 +47,7 @@
     "eslint-plugin-react": "^7.34.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
+    "next-compose-plugins": "^2.2.1",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "sass": "^1.71.1",
